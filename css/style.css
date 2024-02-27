@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.wrapper { 
+  width: 100vw;
+  height: 100vh;
+  background-color: #2f2625;
+}
+
+.spacer {
+  width: 100vw;
+  height: 2vh;
+  background-color: rgb(189, 0, 0);
+}
+
+.header {
+  width: 100vw;
+  margin: auto;
+  height: 15vh;
+  background-color: white;
+  border-radius: 1px;
+  overflow: hidden;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.img1 {
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  height: 120px;
+  width: 120px;
+  margin: 0 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(189, 0, 0);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 40px;
+  display: block;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.item1 {
+  /* Tanjiro box*/
+  background-color: blue;
+  width: 25vw;
+  height: 30vh;
+  border: solid rgb(189, 0, 0);
+  overflow: hidden;
+  flex: 1;
+  margin: 5px;
+}
+
+#tanjiroIMG {
+  width: 25vw;
+  height: 30vh;
+}
+
+.item2 {
+  /* Tanjiro Description*/
+  background-color: rgb(189, 0, 0);
+  width: 25vw;
+  height: 30vh;
+  justify-content: center;
+  flex: 1;
+  margin: 5px;
+  border: solid white;
+  
+}
+
+.text1 {
+  /*Text Tanjiro*/
+  font-size: 1.7vh;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+}
+
+.item3 {
+  /* Zenitsu box*/
+  background-color: blueviolet;
+  width: 25vw;
+  height: 30vh;
+  border: solid rgb(189, 0, 0);
+  overflow: hidden;
+  flex: 1;
+  margin: 5px;
+}
+
+#ZenitsuIMG {
+  width: 25vw;
+  height: 30vh;
+}
+
+.item4 {
+  /* zenitsu description*/
+  width: 24vw;
+  height: 30vh;
+  background-color: rgb(189, 0, 0);
+  border: solid white;
+  flex: 1;
+  margin: 5px;
+}
+
+.text2 {
+  font-size: 1.8vh;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.content2 {
+  display: flex;
+  margin-top: 3px;
+}
+
+.item5 {
+  /* Nezuko box*/
+  width: 15vw;
+  height: 49vh;
+  background-color: blue;
+  border: solid rgb(189, 0, 0);
+  overflow: hidden;
+  margin: 5px;
+}
+
+#NezukoIMG {
+  width: 15vw;
+  height: 49vh;
+  justify-content: center;
+}
+
+.item6 {
+  /* Nezuko description*/
+  width: 15vw;
+  height: 49vh;
+  background-color: rgb(189, 0, 0);
+  margin: 5px;
+  border: solid white;
+}
+
+.text3 {
+  font-size: 1.8vh;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5vh;
+}
+.item7 {
+  /* Description box*/
+  width: 15vw;
+  height: 49vh;
+  background-color: rgb(189, 0, 0);
+  border: solid white;
+  overflow: hidden;
+  margin: 5px;
+}
+
+#DemonsIMG {
+  width: 15vw;
+  height: 50vh;
+  justify-content: center;
+}
+
+.item8 {
+  /* Demons Box*/
+  width: 15vw;
+  height: 49vh;
+  background-color: rgb(189, 0, 0);
+  margin: 5px;
+  border: solid rgb(189, 0, 0);
+  overflow: hidden;
+}
+
+.text4 {
+  /* Text demons*/
+  font-size: 1vh;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.item9 {
+  /*Hashiras box*/
+  margin: 5px;
+  width: 18vw;
+  height: 49vh;
+  background-color: blue;
+  border: solid rgb(189, 0, 0);
+  overflow: hidden;
+}
+
+.HashirasIMG {
+  width: 22vw;
+  height: 100vh;
+}
+
+.item10 {
+  margin: 5px;
+  width: 18vw;
+  height: 49vh;
+  background-color: rgb(189, 0, 0);
+  border: solid rgb(189, 0, 0);
+  overflow: hidden;
+  border: solid white;
+}
+
+.text5 {
+  font-size: 1vh;
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.footer {
+  margin-top: 3vh;
+  background-color: white;
+  height: 6vh;
+  text-align: center;
+}
+
+.text6 {
+  font-family: "Shippori Antique", sans-serif;
+  color: rgb(189, 0, 0);
+}
+.spacer2 {
+  color: rgb(189, 0, 0);
+  width: 100vw;
+  height: 3vh;
+}
